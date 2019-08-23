@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#512da7"
+    tools:context="com.eticket.liamu.eticket2.MainActivity">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:titleTextColor="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:text="Welcome to the eTicket Application"
+        android:textColor="#ff5521"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="112dp"
+        android:text="Please select what type of Ticket to purchase"
+        android:textColor="#ff5521" />
+
+    <Button
+        android:id="@+id/btn_cinema"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_music"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-224dp"
+        android:text="Cinema" />
+
+    <Button
+        android:id="@+id/btn_travel"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_music"
+        android:layout_centerHorizontal="true"
+        android:text="Travel" />
+
+    <Button
+        android:id="@+id/btn_music"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="227dp"
+        android:text="Music" />
+
+    <Button
+        android:id="@+id/btn_bookings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="My Bookings" />
+</RelativeLayout>

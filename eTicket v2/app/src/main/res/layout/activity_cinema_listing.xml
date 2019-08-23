@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    tools:context="com.eticket.liamu.eticket2.CinemaListingActivity">
+
+    <TextView
+        android:id="@+id/travelListing_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/cinemaListing_webview"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="17dp"
+        android:text="American Pie"
+        android:textColor="@android:color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/travelListing_descr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/travelListing_title"
+        android:layout_below="@+id/travelListing_title"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="18dp"
+        android:text="Description for movie here Description for movie here Description for movie here Description for movie here Description for movie here " />
+
+    <WebView
+        android:id="@+id/cinemaListing_webview"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ListView
+        android:id="@+id/cinemaListing_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/travelListing_descr"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

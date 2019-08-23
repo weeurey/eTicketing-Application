@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditingEventActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center_horizontal"
+                android:justificationMode="none"
+                android:text="Add an event by inputting the data below"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center_horizontal"
+                android:text="Basic Infomation" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/edit_eventName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Event Name" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/edit_eventDisc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Event Decription" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/edit_eventYT"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Trailer Link (YouTube)" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="Location Info" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/edit_Venue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Venue" />
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:gravity="center_horizontal"
+                android:text="Date And Time" />
+
+            <TextView
+                android:id="@+id/txtStartDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="Start Date:" />
+
+            <Button
+                android:id="@+id/btn_startdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Set Start Date" />
+
+            <TextView
+                android:id="@+id/txtEndDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="End Date:" />
+
+            <Button
+                android:id="@+id/btn_enddate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Set End Date" />
+
+            <TextView
+                android:id="@+id/txt_weekendTimes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="40dp"
+                android:text="Weekend Times:" />
+
+            <Button
+                android:id="@+id/btn_addWeekendTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add Weekend Time" />
+
+            <Button
+                android:id="@+id/btn_RemoveWeekendTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Remove Weekend Time" />
+
+            <TextView
+                android:id="@+id/txt_weekdayTimes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="40dp"
+                android:text="Weekday Times:" />
+
+            <Button
+                android:id="@+id/btn_addWeekdayTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add Weekday Time" />
+
+            <Button
+                android:id="@+id/btn_removeWeekdayTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Remove weekday time" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:gravity="center_horizontal"
+                android:text="Finalise Submission"
+                android:textColor="@android:color/background_dark" />
+
+            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:checkedButton="@+id/radio_cinema">
+
+                <RadioButton
+                    android:id="@+id/radio_cinema"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="checkButton"
+                    android:text="Cinema" />
+
+                <RadioButton
+                    android:id="@+id/radio_music"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="checkButton"
+                    android:text="Music" />
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/btn_submitEvent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:text="Submit Event"
+                android:textColor="@color/colorAccent" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

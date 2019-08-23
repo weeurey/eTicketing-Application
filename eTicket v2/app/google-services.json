@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "246612658719",
+    "firebase_url": "https://eticket-v2.firebaseio.com",
+    "project_id": "eticket-v2",
+    "storage_bucket": "eticket-v2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:246612658719:android:3b77c2095abb96ff",
+        "android_client_info": {
+          "package_name": "com.eticket.liamu.eticket2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "246612658719-b5q8qt00ri7g21d59hoi2a1v98pvl3re.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.eticket.liamu.eticket2",
+            "certificate_hash": "13472b8ef3f2d35880136c7f60becb5703d43228"
+          }
+        },
+        {
+          "client_id": "246612658719-853lsvc2j4v921t1shhuu8624ie5c7p0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4r6BlxOPRPPRawTD4jufhVbcU1dNlI2A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "246612658719-853lsvc2j4v921t1shhuu8624ie5c7p0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/dateLine_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/dateLine_time_btn1"
+        android:layout_marginLeft="27dp"
+        android:paddingTop="10dp"
+        android:text="TextView"
+        android:textColor="@android:color/black" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingLeft="27dp"
+        android:paddingTop="35dp">
+
+        <Button
+            android:id="@+id/dateLine_time_btn9"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_alignEnd="@+id/dateLine_Date_txt"
+            android:layout_below="@+id/dateLine_time_btn5"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="12dp"
+            android:background="@color/colorPrimary"
+            android:text="20:00"
+            android:textColor="@color/colorAccent" />
+
+        <Button
+            android:id="@+id/dateLine_time_btn2"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_alignBottom="@+id/dateLine_time_btn1"
+            android:layout_alignTop="@+id/dateLine_time_btn1"
+            android:layout_marginStart="17dp"
+            android:layout_toEndOf="@+id/dateLine_time_btn1"
+            android:background="@color/colorPrimary"
+            android:text="20:00"
+            android:textColor="@color/colorAccent" />
+
+        <Button
+            android:id="@+id/dateLine_time_btn11"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_alignBottom="@+id/dateLine_time_btn10"
+            android:layout_alignStart="@+id/dateLine_time_btn7"
+            android:layout_alignTop="@+id/dateLine_time_btn10"
+            android:background="@color/colorPrimary"
+            android:text="20:00"
+            android:textColor="@color/colorAccent" />
+
+        <Button
+            android:id="@+id/dateLine_time_btn7"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_alignBottom="@+id/dateLine_time_btn6"
+            android:layout_alignStart="@+id/dateLine_time_btn3"
+            android:layout_alignTop="@+id/dateLine_time_btn6"
+            android:background="@color/colorPrimary"
+            android:text="20:00"
+            android:textColor="@color/colorAccent" />
+
+        <Button
+            android:id="@+id/dateLine_time_btn14"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_alignBottom="@+id/dateLine_time_btn13"
+            android:layout_alignStart="@+id/dateLine_time_btn10"
+            android:layout_alignTop="@+id/dateLine_time_btn13"
+            android:background="@color/colorPrimary"
+            android:text="20:00"
+            android:textColor="@color/colorAccent" />
+
+        <Button
+            android:id="@+id/dateLine_time_btn16"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_alignBottom="@+id/dateLine_time_btn15"
+            android:layout_alignStart="@+id/dateLine_time_btn12"
+            android:layout_alignTop="@+id/dateLine_time_btn15"
+            android:background="@color/colorPrimary"
+            android:text="20:00"
+            android:textColor="@color/colorAccent" />
+
+        <Button
+            android:id="@+id/dateLine_time_btn8"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_alignBaseline="@+id/dateLine_time_btn7"
+            android:layout_alignBottom="@+id/dateLine_time_btn7"
+            android:layout_alignStart="@+id/dateLine_time_btn4"
+            android:background="@color/colorPrimary"
+            android:text="20:00"
+            android:textColor="@color/colorAccent" />
+
+        <Button
+            android:id="@+id/dateLine_time_btn4"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_alignBottom="@+id/dateLine_time_btn3"
+            android:layout_alignTop="@+id/dateLine_time_btn3"
+            android:layout_marginStart="17dp"
+            android:layout_toEndOf="@+id/dateLine_time_btn3"
+            android:background="@color/colorPrimary"
+            android:text="20:00"
+            android:textColor="@color/colorAccent" />
+
+        <Button
+            android:id="@+id/dateLine_time_btn12"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_alignBottom="@+id/dateLine_time_btn11"
+            android:layout_alignStart="@+id/dateLine_time_btn8"
+            android:layout_alignTop="@+id/dateLine_time_btn11"
+            android:background="@color/colorPrimary"
+            android:text="20:00"
+            android:textColor="@color/colorAccent" />
+
+        <Button
+            android:id="@+id/dateLine_time_btn10"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_alignBottom="@+id/dateLine_time_btn9"
+            android:layout_alignStart="@+id/dateLine_time_btn6"
+            android:layout_alignTop="@+id/dateLine_time_btn9"
+            android:background="@color/colorPrimary"
+            android:text="20:00"
+            android:textColor="@color/colorAccent" />
+
+        <Button
+            android:id="@+id/dateLine_time_btn5"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_alignStart="@+id/dateLine_time_btn1"
+            android:layout_below="@+id/dateLine_time_btn1"
+            android:layout_marginTop="13dp"
+            android:background="@color/colorPrimary"
+            android:text="20:00"
+            android:textColor="@color/colorAccent" />
+
+        <Button
+            android:id="@+id/dateLine_time_btn1"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@color/colorPrimary"
+            android:text="20:00"
+            android:textColor="@color/colorAccent" />
+
+        <Button
+            android:id="@+id/dateLine_time_btn3"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="17dp"
+            android:layout_toEndOf="@+id/dateLine_time_btn2"
+            android:background="@color/colorPrimary"
+            android:text="20:00"
+            android:textColor="@color/colorAccent" />
+
+        <Button
+            android:id="@+id/dateLine_time_btn6"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_alignStart="@+id/dateLine_time_btn2"
+            android:layout_below="@+id/dateLine_time_btn3"
+            android:layout_marginTop="13dp"
+            android:background="@color/colorPrimary"
+            android:text="20:00"
+            android:textColor="@color/colorAccent" />
+
+        <Button
+            android:id="@+id/dateLine_time_btn13"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_alignStart="@+id/dateLine_time_btn9"
+            android:layout_below="@+id/dateLine_time_btn9"
+            android:layout_marginTop="12dp"
+            android:background="@color/colorPrimary"
+            android:text="20:00"
+            android:textColor="@color/colorAccent" />
+
+        <Button
+            android:id="@+id/dateLine_time_btn15"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_alignBottom="@+id/dateLine_time_btn14"
+            android:layout_alignStart="@+id/dateLine_time_btn11"
+            android:layout_alignTop="@+id/dateLine_time_btn14"
+            android:background="@color/colorPrimary"
+            android:text="20:00"
+            android:textColor="@color/colorAccent" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
