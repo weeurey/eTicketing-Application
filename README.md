@@ -1,5 +1,5 @@
 # eTicketing-Application
-Electronic Ticketing application with realtime verification (Honours Project Submission)
+Android Electronic Ticketing application with realtime verification (Honours Project Submission)
 
 
 # The Application
